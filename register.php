@@ -20,10 +20,10 @@ class register {
     }
     public function successMessage(){
         if ($this-> rowCount > 0){
-           return array("msg"=>"Registration complete");
+           return array("msg"=>"Registration is complete");
         }
         else {
-            return array("msg"=>"some error occured");
+            return array("msg"=>"some error has occured");
         }
     }
 }
